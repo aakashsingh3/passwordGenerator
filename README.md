@@ -9,10 +9,10 @@ A modern, responsive password generator built with **React** and **Vite**, featu
 -  Generate secure random passwords
 -  Customizable password length (4–30 characters)
 -  Toggle options for:
-  - Uppercase letters (A–Z)
-  - Lowercase letters (a–z)
-  - Numbers (0–9)
-  - Symbols (!@#$%^&*)
+  -- Uppercase letters (A–Z)
+  -- Lowercase letters (a–z)
+  -- Numbers (0–9)
+  -- Symbols (!@#$%^&*)
 -  Visual password strength indicator (Weak / Medium / Strong)
 -  Copy password to clipboard with one click
 -  Responsive and mobile-friendly UI
@@ -30,32 +30,29 @@ A modern, responsive password generator built with **React** and **Vite**, featu
 
 ## Installation
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/password-generator.git
 cd password-generator
-Install dependencies
+```
 
+### 2. **Install dependencies**
+
+```bash
 npm install
-Start the development server
+```
 
+### 3. Start the development server
+
+```bash
 npm run dev
+```
+---
 
+## Project Structure
 
- Scripts
-Build for production
-
-
-npm run build
-Preview production build
-
-
-npm run preview
-
-
-Project Structure
-
+```pgsql
 
 ├── public/
 ├── src/
@@ -67,23 +64,18 @@ Project Structure
 ├── vite.config.js
 ├── .gitignore
 └── README.md
-📝 .gitignore
-Includes standard ignores for:
+```
 
-node_modules/
+---
 
-dist/, dist-ssr/
+## License
 
-.vscode/, .idea/
-
-Log files (*.log)
-
-System files (e.g., .DS_Store)
-
- License
 This project is licensed under the MIT License.
 
- Acknowledgments
+---
+
+## Acknowledgments
+
 React
 
 Vite
@@ -92,6 +84,8 @@ Tailwind CSS
 
 Heroicons
 
- Preview
+---
 
-![App Screenshot](./screenshot.png)
+## Preview
+
+![App Screenshot](./images/passGen.png)
