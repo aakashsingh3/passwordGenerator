@@ -33,8 +33,8 @@ A modern, responsive password generator built with **React** and **Vite**, featu
 ### 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/password-generator.git
-cd password-generator
+git clone https://github.com/aakashsingh3/passwordGenerator.git
+cd passwordGenerator
 ```
 
 ### 2. **Install dependencies**
